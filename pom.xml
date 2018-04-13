@@ -26,6 +26,16 @@
     </properties>
     <modules>
         <module>eureka-server</module>
+        <module>service-hi</module>
+        <module>service-feign</module>
+        <module>service-ribbon</module>
+        <module>service-zuul</module>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>simple-user-provider</module>
+        <module>zipkin-server</module>
+        <module>service-miya</module>
+        <module>service-lucy</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -35,6 +45,16 @@
                 <version>${spring.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-server</artifactId>
+                <version>1.23.2</version>
+            </dependency>
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-autoconfigure-ui</artifactId>
+                <version>1.23.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

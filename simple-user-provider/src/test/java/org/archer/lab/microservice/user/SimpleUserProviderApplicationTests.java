@@ -1,4 +1,4 @@
-package org.archer.lab.microservice.service;
+package org.archer.lab.microservice.user;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaClientApplicationTests {
+public class SimpleUserProviderApplicationTests {
 
 	@Test
 	public void contextLoads() {

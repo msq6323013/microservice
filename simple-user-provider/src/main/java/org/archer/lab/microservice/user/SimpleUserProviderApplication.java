@@ -1,0 +1,12 @@
+package org.archer.lab.microservice.user;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SimpleUserProviderApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SimpleUserProviderApplication.class, args);
+	}
+}
